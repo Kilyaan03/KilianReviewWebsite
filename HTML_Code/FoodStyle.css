@@ -1,0 +1,85 @@
+
+.thoughts{
+    display: block;
+    border-style: solid;
+    width:fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+p{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rankings img{
+    width: 250px;
+    height: 250px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.rankings{
+    display: flex;
+    max-width: 30%;
+    position: relative;
+    gap: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+li{
+    font-size: x-large !important;
+    margin-bottom: 10px !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.arrow {
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.changePage {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    width: fit-content; /* Ensures the div only takes as much space as needed */
+    margin: 0 auto; /* Centers the div itself */
+    text-align: center;
+    padding: 10px; /* Adds space inside the div */
+    margin-top: 10%;
+}
+
+.returnHomeButton{
+    font-size: 50px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.returnHomeButton img {
+    width: 40px;
+    height: 40px;
+  }
