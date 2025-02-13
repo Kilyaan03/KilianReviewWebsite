@@ -1,0 +1,90 @@
+.main {
+    display: block; /* Ensures divs are block-level */
+    width: auto; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    border: 2px solid black; /* Adds a border to make it look like a box */
+    background-color: white; /* Adds a background color */
+    text-align: center; /* Centers text */
+    margin: 10px; /* Adds spacing between divs */
+}
+
+
+
+
+.topicList img{
+    width: 200px;
+    height: 150px;
+    object-fit: fill;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.topicList img:hover {
+    transform: scale(1.2); /* Enlarges the image by 20% */
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Enable flexbox */
+}
+  
+li {
+    /* No need to set width directly unless you have a specific requirement*/
+    margin-right: 10px; /* Add some space between items */
+}
+
+.topicList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Default: Arrows beside images for screens wider than 800px */
+.arrow {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow:hover {
+    background-color: #555;
+}
+
+/* When screen width is less than 800px, make arrows overlay images */
+@media (max-width: 800px) {
+    .topicList {
+        justify-content: center; /* Center images */
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .prev-arrow {
+        left: 10px;
+    }
+
+    .next-arrow {
+        right: 10px;
+    }
+}
+
