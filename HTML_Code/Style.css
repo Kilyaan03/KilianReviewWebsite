@@ -32,11 +32,10 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Enable flexbox */
+    display: flex; 
 }
   
 li {
-    /* No need to set width directly unless you have a specific requirement*/
     margin-right: 10px; /* Add some space between items */
 }
 

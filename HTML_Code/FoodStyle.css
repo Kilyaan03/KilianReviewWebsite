@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+p{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .rankings img{
     width: 250px;
     height: 250px;
@@ -32,8 +37,10 @@ h1 {
     margin-right: 35%;
 }
 
-.li{
-    font-size: large;
+li{
+    font-size: x-large !important;
+    margin-bottom: 10px !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
