@@ -1,10 +1,10 @@
-
+/*Very similar to Style.css and TV_Style.css so wont comment everyhting*/
 .thoughts{
-    display: block;
-    border-style: solid;
+    display: block; /* block display is like it makes an element take up the full width of its container and stack vertically, starting on a new line.*/
+    border: 5px solid black; /*adds border around the thoughts class*/
     width:fit-content;
-    margin: 0 auto;
-    border-radius: 10px;
+    margin: 0 auto; /*centers the div horizontally*/
+    border-radius: 10px; /*adds rounded corners to the border*/
     background-color: antiquewhite;
     text-align: center;
 }
@@ -38,14 +38,13 @@ h1 {
 }
 
 li{
-    font-size: x-large !important;
-    margin-bottom: 10px !important;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: x-large ;
+    margin-bottom: 10px ;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif; /*adds specific font*/
+
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: aliceblue;
 }
 
@@ -56,7 +55,6 @@ body {
     padding: 10px 15px;
     font-size: 20px;
     cursor: pointer;
-    z-index: 10;
     border-radius: 10px;
 }
 
@@ -67,8 +65,7 @@ body {
     width: fit-content; /* Ensures the div only takes as much space as needed */
     margin: 0 auto; /* Centers the div itself */
     text-align: center;
-    padding: 10px; /* Adds space inside the div */
-    margin-top: 10%;
+    margin-top: 10%; /*pushes element down 10% of its hight*/
 }
 
 .returnHomeButton{

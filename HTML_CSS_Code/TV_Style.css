@@ -1,3 +1,4 @@
+/*practically the sames as the Style.css sheet so I wont repeat*/
 body {
     background-color: #B8B8D1;
     color: rgb(255, 255, 255);
@@ -25,18 +26,18 @@ p {
 }
 
 .left-content {
-    flex: 3;
+    flex: 3; /* Takes up 3/4 of the available space */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*pretty much as says the things inside synopsis and review wont be in a row but in acolumn stacked on top each other*/
     gap: 10px;
 }
 
 #imdb {
-    flex: 1;
+    flex: 1; /* Takes up 1/4 of the available space */
     display: flex;
     flex-direction: column;
     background-color: #FFC145;
-    max-height: 100%;
+    max-height: 100%; /* Ensures the element does not exceed 100% height */
 }
 
 .box {
@@ -45,7 +46,6 @@ p {
 
 #review {
     background-color: #FF6B6C;
-    border: 1px solid #78b90f;
     padding-left: 20px;
 }
 
@@ -57,7 +57,7 @@ p {
     gap: 15px;
 }
 
-/* Makes sure video doesn't shrink too much */
+/* Makes sure the video is at full posible length */
 .video-container iframe {
     width: 100%;
     height: 100%;
@@ -86,7 +86,7 @@ p {
   }
 
   .returnHomeButton:hover {
-    background-color: rgb(255, 255, 255,0.5);
+    background-color: rgb(255, 255, 255,0.5);/*value on the right is for its opacity*/
   }
 
 .arrow {
