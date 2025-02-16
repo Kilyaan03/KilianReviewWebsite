@@ -3,7 +3,7 @@ My website where I post reviews on subjects. I didn't bother adding comments whe
 
 How to run:
 
-1. Open `index.html` in your web browser.  (Most modern browsers can open HTML files directly.)
+1. Open `index.html` in your web browser.  (Chrome would be best)
 
 *OR*
 
