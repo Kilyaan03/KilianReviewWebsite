@@ -65,7 +65,6 @@ p {
 
 #changePage{
     display: border;
-    border: 3px dashed red;
     text-align: center;
 
 }
