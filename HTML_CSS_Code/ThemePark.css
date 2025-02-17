@@ -1,14 +1,15 @@
+/*Only added a few comments because most are already answered in the other css adn html files*/
 .main{
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     grid-template-rows: 1fr 1fr; /* Two equal rows */
-    width: 100vw; 
+    width: 100vw; /* Full width of the viewport */
 }
 
 body{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100vh; /* Full height of the viewport */
     background-color: #0F5257;
 }
 
