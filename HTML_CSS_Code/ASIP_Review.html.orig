@@ -12,18 +12,31 @@
         <div class="left-content">
             <div class="box" id="video-synopsis">
                 <div class="video-container">
+<<<<<<< HEAD
                     <!-- Iframe allows you to embed links-->
+=======
+>>>>>>> f230c73ef443de52e860d22fb165b47b160933b4
                     <iframe src="https://www.dailymotion.com/embed/video/x8lhtmj" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="synopsis-text">
                     <h2>Synopsis</h2>
+<<<<<<< HEAD
                     <p>It's Always Sunny in Philadelphia is a dark comedy about "The Gang," five narcissistic and sociopathic friends who run the failing Paddy's Pub in South Philadelphia.  The group includes Charlie, the dimwitted but sometimes competent janitor; Mac, the insecure, karate-obsessed bouncer; Dennis, the vain, self-proclaimed leader; Dee, Dennis's aspiring actress twin and the gang's frequent target; and Frank, their wealthy, morally bankrupt father.  The show follows their schemes for personal gain, revenge, or just chaos.  Their unethical plans always go hilariously wrong, leading to absurd and disastrous results.  Known for its irreverent humor, social satire, and boundary-pushing jokes, <em>Sunny</em> has a cult following and is praised for its clever writing, memorable characters, and finding humor in dark situations.</p>
                     </div>
+=======
+                    <p>This is a synopsis of a popular TV show. The show follows the adventures of a group of friends as they navigate through life's challenges and triumphs. With a mix of humor, drama, and suspense, this show has captivated audiences worldwide.</p>
+                    <p>This is a synopsis of a popular TV show. The show follows the adventures of a group of friends as they navigate through life's challenges and triumphs. With a mix of humor, drama, and suspense, this show has captivated audiences worldwide.</p>
+                    <p>This is a synopsis of a popular TV show. The show follows the adventures of a group of friends as they navigate through life's challenges and triumphs. With a mix of humor, drama, and suspense, this show has captivated audiences worldwide.</p>
+                    <p>This is a synopsis of a popular TV show. The show follows the adventures of a group of friends as they navigate through life's challenges and triumphs. With a mix of humor, drama, and suspense, this show has captivated audiences worldwide.</p>
+                    <p>This is a synopsis of a popular TV show. The show follows the adventures of a group of friends as they navigate through life's challenges and triumphs. With a mix of humor, drama, and suspense, this show has captivated audiences worldwide.</p>
+                </div>
+>>>>>>> f230c73ef443de52e860d22fb165b47b160933b4
             </div>
             
             
             <div class="box" id="review">
                 <h2>Review</h2>
+<<<<<<< HEAD
                 
                     <!-- <b> just makes it bold-->
                 <p><b>My Review:</b> "It's Always Sunny in Philadelphia" is easily one of the funniest, most outrageous shows I’ve ever watched. The sheer absurdity of the gang’s antics, combined with the razor-sharp writing, makes it a must-watch. It’s crude, dark, and completely unapologetic, which is exactly why it works so well. Every episode is packed with chaotic energy, and no topic is off-limits. Somehow, despite how awful the characters are, you can’t help but love them. If you haven’t seen it yet, do yourself a favor and start binging.</p>
@@ -34,6 +47,17 @@
                 
                 <p><b>Favorite Actor:</b> While every member of the gang is incredible, I have to go with Danny DeVito as Frank Reynolds. He completely changed the show when he joined in season 2, and his commitment to being as disgusting and bizarre as possible is just amazing. Whether he’s crawling out of a couch naked or eating trash, Frank never fails to steal the scene.</p>
                 
+=======
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+                <p>This TV show is a must-watch! The storyline is engaging, the characters are well-developed, and the production quality is top-notch. Each episode leaves you wanting more, and the plot twists are both surprising and satisfying. Highly recommended!</p>
+>>>>>>> f230c73ef443de52e860d22fb165b47b160933b4
             </div>
 
         </div>
