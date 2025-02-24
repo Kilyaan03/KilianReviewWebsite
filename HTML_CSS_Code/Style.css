@@ -1,10 +1,29 @@
 .title {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
     display: block; /* Ensures divs are block-level */
+    width: fit-content; /* Set a fixed width */
+    height: fit-content; /* Set a fixed height */
+    text-align: center; /* Centers text */
+    background-color: #D6D3F0; /* Sets a specific background color */
+    color: black; /* Sets text color */
+}
+
+#menuButton{
+    display:flex;
+    align-items: center;/*centers the image vertically.*/
+    justify-content: center; /*centers the image horizontally.*/
+}
+
+#container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 4fr; gap: 15px;
     width: auto; /* Set a fixed width */
     height: 500px; /* Set a fixed height */
     border: 2px solid black; /* Adds a border to make it look like a box */
-    text-align: center; /* Centers text */
-    margin: 20px; /* Adds spacing between divs */
+    margin:  20px 10%; /* Adds spacing between divs */
     background-color: #D6D3F0; /* Sets a specific background color */
     color: black; /* Sets text color */
 }

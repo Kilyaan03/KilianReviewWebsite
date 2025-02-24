@@ -1,0 +1,2 @@
+
+let menuButton = document.getElementById
