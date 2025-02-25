@@ -24,15 +24,38 @@
 #menuBar{
     position: absolute;
     width: 33vw;
-    background-color: aqua;
+    background-color: rgb(12, 238, 238);
     height: 100vh;
     z-index: 1;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-    
+    text-align: center;
     opacity: 0;
     visibility: hidden;
+    font-size: 1.6em;
+    cursor: pointer;
    
     
+}
+
+.menu-item{
+    font-size: 1.4em;
+}
+
+.menu-item:hover{
+    background-color: #6B5CA5;
+}
+.menu-options {
+    display: none;
+}
+
+.menu-options.visible {
+    display: block;
+}
+
+.menu-header {
+    border: solid;
+    background-color: black;
+    color: white;
 }
 
 #menuBar.view {
