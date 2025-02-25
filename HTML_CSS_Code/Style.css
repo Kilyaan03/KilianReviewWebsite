@@ -10,10 +10,36 @@
     color: black; /* Sets text color */
 }
 
-#menuButton{
+#menuButtonContainer{
     display:flex;
     align-items: center;/*centers the image vertically.*/
     justify-content: center; /*centers the image horizontally.*/
+}
+
+#menuButton{
+    background-color: #D6D3F0;
+    border: none;
+}
+
+#menuBar{
+    position: absolute;
+    width: 33vw;
+    background-color: aqua;
+    height: 100vh;
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    
+    opacity: 0;
+    visibility: hidden;
+   
+    
+}
+
+#menuBar.view {
+    transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+    
 }
 
 #container{
