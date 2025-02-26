@@ -1,68 +1,69 @@
 .title {
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-    display: block; /* Ensures divs are block-level */
-    width: fit-content; /* Set a fixed width */
-    height: fit-content; /* Set a fixed height */
+    position: absolute; /* Positions the element absolutely */
+    right: 50%; /* Positions the element 50% from the right */
+    transform: translateX(50%); /* Centers the element horizontally */
+    display: block;
+    width: fit-content; /* Sets the width to fit the content */
+    height: fit-content; /* Sets the height to fit the content */
     text-align: center; /* Centers text */
     background-color: #D6D3F0; /* Sets a specific background color */
     color: black; /* Sets text color */
 }
 
-#menuButtonContainer{
-    display:flex;
-    align-items: center;/*centers the image vertically.*/
-    justify-content: center; /*centers the image horizontally.*/
+#menuButtonContainer {
+    display: flex; /* Uses flexbox layout */
+    align-items: center; /* Centers the image vertically */
+    justify-content: center; /* Centers the image horizontally */
 }
 
-#menuButton{
-    background-color: #D6D3F0;
-    border: none;
+/* Styles for the menu button */
+#menuButton {
+    background-color: #D6D3F0; 
+    border: none; /* Removes border */
 }
 
-#menuBar{
-    position: absolute;
-    width: 33vw;
-    background-color: rgb(12, 238, 238);
-    height: 100vh;
-    z-index: 1;
-    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-    text-align: center;
-    opacity: 0;
-    visibility: hidden;
-    font-size: 1.6em;
-    cursor: pointer;
-   
-    
+/* Styles for the menu bar */
+#menuBar {
+    position: absolute; /* Positions the element absolutely */
+    width: 33vw; /* Sets the width to 33% of the viewport width */
+    background-color:#A44200; /* Sets a specific background color */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    z-index: 1; /* Sets the stack order */
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; /* Adds transition effects */
+    text-align: center; 
+    opacity: 0; /* Sets initial opacity to 0 */
+    visibility: hidden; /* Sets initial visibility to hidden */
+    font-size: 1.6em; /* Sets font size */
+    cursor: pointer; /* Changes cursor to pointer */
+    color: antiquewhite;
 }
 
-.menu-item{
-    font-size: 1.4em;
+.menu-item {
+    font-size: 1.4em; 
 }
 
-.menu-item:hover{
-    background-color: #6B5CA5;
+.menu-item:hover {
+    background-color: #69140E; /* Changes background color on hover */
 }
+
 .menu-options {
-    display: none;
+    display: none; /* Hides the menu options */
 }
 
 .menu-options.visible {
-    display: block;
+    display: block; /* Displays the menu options */
 }
 
 .menu-header {
-    border: solid;
-    background-color: black;
-    color: white;
+    border: solid; /* Adds a solid border */
+    background-color: #69140E; 
+    color: white; /* Sets text color */
 }
 
 #menuBar.view {
-    transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
-    opacity: 1;
-    visibility: visible;
-    
+    transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out; /* Adds transition effects */
+    opacity: 1; /* Sets opacity to 1 */
+    visibility: visible; /* Sets visibility to visible */
 }
 
 #container{
