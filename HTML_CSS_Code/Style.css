@@ -39,6 +39,13 @@
     color: antiquewhite;
 }
 
+#endBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px;
+}
+
 .menu-item {
     font-size: 1.4em; 
 }

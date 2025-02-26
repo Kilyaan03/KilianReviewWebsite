@@ -2,6 +2,24 @@
 let menuButton = document.getElementById("menuButton");
 let menuBar = document.getElementById("menuBar");
 let menuItem = document.getElementById("menu-item");
+let loginButton = document.getElementById("loginButton")
+let logoutButton = document.getElementById("log-out")
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (localStorage.getItem('formSubmitted') === 'true') {
+        loginButton.innerText = 'Logged In';
+        loginButton.style.backgroundColor="green";
+    }
+});
+
+logoutButton.addEventListener("click", event=> {
+    localStorage.removeItem('formSubmitted'); // Clear the flag
+    
+    loginButton.innerText = 'Log In';
+    loginButton.style.backgroundColor="white";
+
+})
+
 
 // Add an event listener to the menu button to show the menu bar on mouseover
 menuButton.addEventListener("mouseover", event => {
@@ -56,3 +74,7 @@ function resetMenuBar() {
         option.classList.remove('visible');
     });
 }
+
+loginButton.addEventListener("click", event=>{
+    window.location.href = "login.html";
+})
