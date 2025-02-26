@@ -2,18 +2,27 @@
 let menuButton = document.getElementById("menuButton");
 let menuBar = document.getElementById("menuBar");
 let menuItem = document.getElementById("menu-item");
-let loginButton = document.getElementById("loginButton")
-let logoutButton = document.getElementById("log-out")
+let loginButton = document.getElementById("loginButton");
+let logoutButton = document.getElementById("log-out");
+let reviewButton = document.getElementById("submitReview");
 
 document.addEventListener('DOMContentLoaded', function() {
-    if (localStorage.getItem('formSubmitted') === 'true') {
+    if (localStorage.getItem('loggedIn') === 'true') {
         loginButton.innerText = 'Logged In';
         loginButton.style.backgroundColor="green";
     }
 });
 
+reviewButton.addEventListener("click", event => {
+    if (localStorage.getItem('loggedIn') === 'true') {
+        window.location.href = "ReviewForm.html";
+    } else {
+        alert('Please login first.');
+    }
+});
+
 logoutButton.addEventListener("click", event=> {
-    localStorage.removeItem('formSubmitted'); // Clear the flag
+    localStorage.removeItem('loggedIn'); // Clear the flag
     
     loginButton.innerText = 'Log In';
     loginButton.style.backgroundColor="white";

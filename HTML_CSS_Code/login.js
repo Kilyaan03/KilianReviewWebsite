@@ -8,7 +8,7 @@ form.addEventListener('submit', event => {
     event.preventDefault();
 
     if (validateInputs()) {
-        localStorage.setItem('formSubmitted', 'true');
+        localStorage.setItem('loggedIn', 'true');
         window.location.href = 'index.html';
     }
 });
