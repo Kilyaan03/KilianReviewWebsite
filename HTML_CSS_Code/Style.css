@@ -8,6 +8,7 @@
     text-align: center; /* Centers text */
     background-color: #D6D3F0; /* Sets a specific background color */
     color: black; /* Sets text color */
+    font-size: 0.8em;
 }
 
 #menuButtonContainer {
